@@ -37,7 +37,7 @@ print("PC chose: ")
 print(game[pc_choice])
 
 if player >= 3 or player < 0:
-    print("You choose the wrong number! You lost.")
+    print("You chose the wrong number! You lost.")
 elif player == 0 and pc_choice == 2:
     print("You win! Nice.")
 elif pc_choice == 0 and player == 2:
